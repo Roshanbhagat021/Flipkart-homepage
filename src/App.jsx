@@ -10,7 +10,7 @@ import Deals from "./components/Deals";
 function App() {
   return (
     <>
-      <div className="relative bg-[#F0F5FF]">
+      <div className="relative bg-[#F0F5FF] overflow-hidden">
         <Navbar />
         <Categories/>
         <Banner/>
