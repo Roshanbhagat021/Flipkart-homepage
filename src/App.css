@@ -1,0 +1,179 @@
+
+.caret {
+  transition: transform 0.3s ease;
+}
+
+.button:hover .caret {
+  transform: rotate(180deg);
+}
+
+
+.dropdown1{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+    z-index: 1000;
+}
+
+.dropDown{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: -400%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.threeDot:hover .dropDown{
+    display: block;
+}
+
+
+
+.fashionDD1{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: -150%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+    
+}
+.fashionDD2{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: 100%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+
+.fashion:hover .fashionDD1, .fashion:hover .fashionDD2{
+    display: block;
+}
+
+
+
+
+
+
+.elctronicsDD1{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: -130%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+.elctronicsDD2{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: 60%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+
+.elctronics:hover .elctronicsDD1, .elctronics:hover .elctronicsDD2{
+    display: block;
+}
+
+
+
+
+.homeDD1{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: -70%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+.homeDD2{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: 42%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+
+.home:hover .homeDD1, .home:hover .homeDD2{
+    display: block;
+}
+
+
+
+
+.beautyDD1{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: -70%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+.beautyDD2{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: 42%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+
+.beauty:hover .beautyDD1, .beauty:hover .beautyDD2{
+    display: block;
+}
+
+
+
+.bikeDD1{
+    background-color: white;
+    display: none;
+    top: 100%;
+    left: -20%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 10;
+}
+
+.bike:hover .bikeDD1{
+    display: block;
+}
+
+
+.swiper-button-prev::after{
+    position: absolute;
+    padding: 28px 14px !important;
+    left: -10px !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    color: gray;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.swiper-button-next::after{
+    position: absolute;
+    padding: 28px 14px !important;
+    left:1px !important;
+    font-size: 16px !important;
+    color: gray;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+
